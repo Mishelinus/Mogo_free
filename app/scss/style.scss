@@ -478,6 +478,7 @@ margin-bottom: 50px;
 
 .service{
    padding-top: 108px;
+   padding-bottom: 123px;
 }
 .service__wrapper{
    display: flex;
@@ -586,7 +587,114 @@ margin-bottom: 50px;
    height: 180px;
 }
 
-// end section service 
+// end section service
+
+// Start slider-quotes 
+
+.slider-quotes{
+   margin-bottom: 150px;
+   padding-top: 68px;
+   padding-bottom: 68px;
+   background-color: #f8f8f8;
+
+}
+.quotes{
+   position: relative;
+   
+
+}
+
+
+.slide__inner{
+   display: flex;
+   justify-content: center;
+}
+.slide__picture{
+   width: 140px;
+   height: 140px;
+   border: 3px solid #95e1d3;
+   position: relative;
+   &::before{
+      content:"";
+      position: absolute;
+      width: 64px;
+      height: 64px;
+      background-image: url(../images/icons/speech.svg);
+      background-repeat: no-repeat;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+   }
+   
+}
+.slide__box-quote{
+   width: 760px;
+   margin-left: 60px;
+   text-align: left;
+
+
+}
+.one-quote{
+   // padding-top: 10px;
+   padding-bottom: 6px;
+   font-family: 'Roboto', sans-serif;
+   color: #999999;
+   font-weight: 300;
+   font-size: 24px;
+   font-style: italic;
+   line-height: 36px;
+
+}
+.quote-author{
+   font-family: 'Kaushan Script', cursive;
+   font-weight: 400;
+   font-size: 24px;
+   color: #333333;
+   padding-left: 73px;
+   position: relative;
+   &::before{
+      content: "";
+      position: absolute;
+      bottom: 9px;
+      left: 32px;
+      transform: translate(-50%, -50%);
+      height: 3px;
+      width: 60px;
+      background-color: #f38181;
+   }
+
+
+}
+
+// slider arrows
+
+.quotes .slick-arrow{
+   position: absolute;
+   top: 50%;
+   z-index: 2;
+   font-size: 0;
+   width:20px;
+   height:26px;
+   outline: none;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+
+} 
+.slick-arrow.slick-prev{
+   left: 0px;
+   background-image: url(../images/icons/arrow-left.svg);
+   background-repeat: no-repeat;
+  
+}
+.slick-arrow.slick-next{
+   right: 0px;
+   background-image: url(../images/icons/arrow-right.svg);
+   background-repeat: no-repeat;
+}
+
+// end slider-quotes 
 
 
 
