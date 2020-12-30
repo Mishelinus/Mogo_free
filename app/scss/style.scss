@@ -16,9 +16,6 @@ html{
 *::after{
    box-sizing:inherit;
 }
-
-
-
 .title{
    font-family: 'Kaushan Script', cursive;
    font-size: 24px;
@@ -26,7 +23,6 @@ html{
    font-weight: 400;
    color: #333333;
    text-align: center;
-  
 }
 .subtitle{ 
    font-family: 'Montserrat', sans-serif;
@@ -55,8 +51,7 @@ html{
       font-size: 15px;
       color: #999;
       margin: 0 auto;
-      margin-top: 45px;
-      
+      margin-top: 45px;   
 }
 
 .menu img {
@@ -1229,6 +1224,10 @@ li:hover.pinterest a::after{
 .map-subtitle{
    color: #f38181;
    position: relative;
+   & a{
+      text-decoration: none;
+      color: #f38181;
+   }
    &::after{
       bottom: 20px;
    }
@@ -1447,6 +1446,9 @@ display: inline-block;
    color: #333;
    max-width: 202px;
    margin-bottom: 9px;
+   & a{
+      text-decoration: none;
+   }
 }
 .latest-box__date{
    font-family: 'Roboto', sans-serif;
@@ -1475,12 +1477,9 @@ display: inline-block;
     font-size: 13px;
     line-height: 24px;
     color: #333;
-    
    & a{
       text-decoration: none;
-      
    }
-   
 }
 .copyright{
    margin-top: 66px;
@@ -1496,10 +1495,8 @@ display: inline-block;
    }
    & span{
       color: #f38181;
-     
    }
 }
-
 //end section contact 
 
 
