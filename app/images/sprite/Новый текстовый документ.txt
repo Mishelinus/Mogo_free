@@ -1,0 +1,46 @@
+.bg-facebook_r {
+    width: 13px; height: 26px;
+    background: url('css_sprites.png') -0 -0;
+}
+
+x
+.bg-instagram_r {
+    width: 26px; height: 26px;
+    background: url('css_sprites.png') -68px -0;
+}
+
+x
+.bg-pinterest_r {
+    width: 21px; height: 26px;
+    background: url('css_sprites.png') -26px -0;
+}
+
+x
+.bg-twitter_r {
+    width: 26px; height: 22px;
+    background: url('css_sprites.png') -94px -0;
+}
+
+x
+.bg-twitter_w {
+    width: 26px; height: 22px;
+    background: url('css_sprites.png') -120px -0;
+}
+
+x
+.bg-facebook_w {
+    width: 13px; height: 26px;
+    background: url('css_sprites.png') -13px -0;
+}
+
+x
+.bg-instagram_w {
+    width: 26px; height: 26px;
+    background: url('css_sprites.png') -146px -0;
+}
+
+x
+.bg-pinterest_w {
+    width: 21px; height: 26px;
+    background: url('css_sprites.png') -47px -0;
+}
